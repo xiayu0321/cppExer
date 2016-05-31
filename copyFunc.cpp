@@ -22,8 +22,9 @@ class Point{
 int main(){
     Point p1(30,40);
     Point p2(p1);
+    Point p3(p2);
     p1.show();
     p2.show();
-
+    p3.show();
     return 0;
 }
